@@ -5,5 +5,10 @@
 } */
 
 body{
+    padding-top: 15%;
     background-image: url(../images/green_cup.png);
 }
+/* #portfolio, #contact{
+border-left-style: solid;
+border-left-color: #dddddd
+} */
