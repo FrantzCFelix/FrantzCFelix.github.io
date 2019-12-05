@@ -16,23 +16,31 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+     <!--Custom CSS links-->
+     <link rel="stylesheet" href="assets/css/index.css">
+     <!--****************-->
     <meta charset="UTF-8">
     <title>Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <div class="name-bar">
-            <h1>Frantz Felix</h1>
-
-            <nav>
-                <a id="about" href="index.html"> About </a>
-                <a id="portfolio" href="portfolio.html"> Portfolio </a>
-                <a id="contact" href="contact.html"> Contact </a>
-
-            </nav>
-        </div>
-    </header>
+        <header>
+                <!--Try to use sticky-top to push down body under nav dropdown-->
+                <nav class="navbar navbar-expand-lg  navbar-dark fixed-top bg-dark border-bottom">
+                    <a href="#" class="navbar-brand text-white bg-success p-2 m-n3">Frantz Felix</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <div class="navbar-nav ml-auto">
+                            <a id="index" class="nav-item nav-link" href="index.html"> About </a>
+                            <a id="portfolio" class="nav-item nav-link border-left" href="portfolio.html"> Portfolio </a>
+                            <a id="contact" class="nav-item nav-link border-left" href="contact.html"> Contact </a>
+                        </div>
+                    </div>
+                </nav>
+            </header>
 
 
     <section>
