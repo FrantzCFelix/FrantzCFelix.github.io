@@ -6,19 +6,19 @@
     <link rel="stylesheet" href="assets/css/nav-bar.css">
     <link rel="stylesheet" href="assets/css/footer.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-     <!--Custom CSS links-->
-     <link rel="stylesheet" href="assets/css/contact.css">
-     <!--****************-->
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!--Custom CSS links-->
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <!--****************-->
     <meta charset="UTF-8">
     <title>Contact</title>
 
@@ -26,49 +26,54 @@
 
 <body>
 
-        <header>
-                <!--Try to use sticky-top to push down body under nav dropdown-->
-                <nav class="navbar navbar-expand-lg  navbar-dark fixed-top bg-dark border-bottom">
-                    <a href="#" class="navbar-brand text-white bg-success p-2 m-n3">Frantz Felix</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <div class="navbar-nav ml-auto">
-                            <a id="index" class="nav-item nav-link" href="index.html"> About </a>
-                            <a id="portfolio" class="nav-item nav-link " href="portfolio.html"> Portfolio </a>
-                            <a id="contact" class="nav-item nav-link " href="contact.html"> Contact </a>
-                        </div>
-                    </div>
-                </nav>
-            </header>
+    <header>
+        <!--Try to use sticky-top to push down body under nav dropdown-->
+        <nav class="navbar navbar-expand-lg  navbar-dark fixed-top bg-dark border-bottom">
+            <a href="#" class="navbar-brand text-white bg-success p-2 m-n3">Frantz Felix</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="navbar-nav ml-auto">
+                    <a id="index" class="nav-item nav-link" href="index.html"> About </a>
+                    <a id="portfolio" class="nav-item nav-link " href="portfolio.html"> Portfolio </a>
+                    <a id="contact" class="nav-item nav-link " href="contact.html"> Contact </a>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <section>
-        <div class="content">
-            <h2>Contact</h2>
-            <form>
-                <p>Name:</p>
-                <input id="name" type="text" value="John Smith">
+        <main class="mx-auto">
 
-                <p> Email:</p>
-                <input id="email" type="email" value="example@gmail.com">
+            <div class="container bg-light mb-4 ">
+                <div class="row">
+                    <span class="col-md-1"></span>
+                    <div class="col-md-10 text-success border-bottom py-4">
+                        <h2>About Me</h2>
+                    </div>
+                    <span class="col-md-1"></span>
 
-                <p>Message:</p>
-                <input id="message" type="text">
-
-                <input id="submit" type="submit" value="Submit">
-
-
-            </form>
-        </div>
-    </section>
-
-    <footer class="footer mt-auto py-3 row border-top border-success bg-dark">
-            <div class="container col-md-12 text-white ">
-                    <h6>Copyright Ⓒ</h6>
+                </div>
+                <div class="form-group needs-validation was-validated">
+                    <label for="formControlInput1">Name</label>
+                    <input type="text" class="form-control" id="formControlInput1" placeholder="John Smith">
+                    <label for="formControlInput2">Email address</label>
+                    <input type="email" class="form-control" id="formControlInput2" placeholder="name@example.com">
+                    <label for="formControlTextarea1">Message</label>
+                    <textarea type="text"class="form-control" id="formControlTextarea1" rows="5" placeholder="Say Something..."></textarea>
+                    <button type="submit" class="btn btn-success mb-2">Submit</button>
+                </div>
+               
             </div>
-            
+        </main>
+
+        <footer class="footer mt-auto py-3 row border-top border-success bg-dark">
+            <div class="container col-md-12 text-white ">
+                <h6>Copyright Ⓒ</h6>
+            </div>
+
         </footer>
 
 </body>
