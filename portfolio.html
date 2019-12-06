@@ -6,83 +6,93 @@
     <link rel="stylesheet" href="assets/css/nav-bar.css">
     <link rel="stylesheet" href="assets/css/footer.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-     <!--Custom CSS links-->
-     <link rel="stylesheet" href="assets/css/portfolio.css">
-     <!--****************-->
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!--Custom CSS links-->
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <!--****************-->
     <meta charset="UTF-8">
     <title>Portfolio</title>
 </head>
 
 <body>
-        <header>
-                <!--Try to use sticky-top to push down body under nav dropdown-->
-                <nav class="navbar navbar-expand-lg  navbar-dark fixed-top bg-dark border-bottom">
-                    <a href="#" class="navbar-brand text-white bg-success p-2 m-n3">Frantz Felix</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <div class="navbar-nav ml-auto">
-                            <a id="index" class="nav-item nav-link" href="index.html"> About </a>
-                            <a id="portfolio" class="nav-item nav-link border-left" href="portfolio.html"> Portfolio </a>
-                            <a id="contact" class="nav-item nav-link border-left" href="contact.html"> Contact </a>
-                        </div>
-                    </div>
-                </nav>
-            </header>
+    <header>
+        <!--Try to use sticky-top to push down body under nav dropdown-->
+        <nav class="navbar navbar-expand-lg  navbar-dark fixed-top bg-dark border-bottom">
+            <a href="#" class="navbar-brand text-white bg-success p-2 m-n3">Frantz Felix</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="navbar-nav ml-auto">
+                    <a id="index" class="nav-item nav-link" href="index.html"> About </a>
+                    <a id="portfolio" class="nav-item nav-link border-left" href="portfolio.html"> Portfolio </a>
+                    <a id="contact" class="nav-item nav-link border-left" href="contact.html"> Contact </a>
+                </div>
+            </div>
+        </nav>
+    </header>
 
 
-    <section>
-        <div class="content">
-            <h2>Portfolio</h2>
+    <main class="mx-auto">
+        <div class="container bg-light mb-4 ">
+            <div class="row">
+                <span class="col-md-1"></span>
+                <div class="col-md-10 text-success border-bottom py-4">
+                    <h2>Portfolio</h2>
+                </div>
+                <span class="col-md-1"></span>
+            </div>
 
-            <div class="projects">
-                <div class="project-1">
+            <div class="row">
+                <div class=" text-center col-md-6 py-4 project-1 ">
                     <img src="assets/images/kolve-taroth-250x200.jpg" alt="Monster Hunter World image">
                     <h3>Kolve Taroth</h3>
                 </div>
 
-                <div class="project-2">
+                <div class=" text-center col-md-6 py-4 project-2">
                     <img src="assets/images/green-ratholos-250x200.jpg" alt="Monster Hunter World image">
                     <h3>Green Ratholos</h3>
                 </div>
-
-                <div class="project-3">
+            </div>
+            <div class="row">
+                <div class=" text-center col-md-6 py-4 project-3">
                     <img src="assets/images/koto-berserker-250x200.jpg" alt="Monster Hunter World image">
                     <h3>Koto Berserker</h3>
                 </div>
 
-                <div class="project-4">
+                <div class=" text-center col-md-6 py-4 project-4">
                     <img src="assets/images/Monster-Hunter-World-3-250x200.jpg" alt="Monster Hunter World image">
                     <h3>Monster Hunter World</h3>
                 </div>
-
-                <div class="project-5">
+            </div>
+            <div class="row">
+                <div class=" text-center col-md-12 py-4 project-5">
                     <img src="assets/images/monster-hunter-world-troll-face-250x200.jpg"
                         alt="Monster Hunter World image">
                     <h3>Kulu-Ya-Ku</h3>
                 </div>
             </div>
+
         </div>
-    </section>
+
+    </main>
 
     <footer class="footer mt-auto py-3 row border-top border-success bg-dark">
-            <div class="container col-md-12 text-white ">
-                    <h6>Copyright Ⓒ</h6>
-            </div>
-            
-        </footer>
+        <div class="container col-md-12 text-white ">
+            <h6>Copyright Ⓒ</h6>
+        </div>
+
+    </footer>
 
 </body>
 
