@@ -10,6 +10,7 @@ Personal Website to showcase personal to potential employers.
 ## Getting Started
 
 Just go to FrantzCFelix.github.io to find my page!
+https://frantzcfelix.github.io/index.html
 
 
 ### Executing program
